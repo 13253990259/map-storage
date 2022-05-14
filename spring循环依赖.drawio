@@ -1,11 +1,33 @@
-<mxfile host="app.diagrams.net" modified="2022-05-14T10:02:14.853Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="_Of3FgK0qwkyzv9dMvrw" version="18.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-14T10:12:03.987Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="-CBZIv4BzhC2wjHSUhVF" version="18.0.3" type="github">
   <diagram id="VY0CLH7nJF8fNBSdP3Rm" name="第 1 页">
-    <mxGraphModel dx="1278" dy="624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="foalHKmpjLLSSGZfps72-1" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="160" y="80" width="80" height="80" as="geometry" />
+        <mxCell id="xUoOStjw7muQhoDG1cdU-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;A依赖B, B依赖A, 无Aop&lt;/font&gt;" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE599;" vertex="1" parent="1">
+          <mxGeometry x="160" y="70" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xUoOStjw7muQhoDG1cdU-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="1" source="xUoOStjw7muQhoDG1cdU-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="215" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xUoOStjw7muQhoDG1cdU-2" value="A" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="160" y="200" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xUoOStjw7muQhoDG1cdU-3" value="B" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="330" y="200" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xUoOStjw7muQhoDG1cdU-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="1" source="xUoOStjw7muQhoDG1cdU-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="215" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xUoOStjw7muQhoDG1cdU-6" value="实例化A&lt;br&gt;new A()" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="160" y="320" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xUoOStjw7muQhoDG1cdU-10" value="放入三级缓存" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="160" y="430" width="110" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
